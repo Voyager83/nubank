@@ -28,8 +28,8 @@
 
   .header{
     display:flex;
-  flex-direction: row;
-  justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-between;
 
   .person-circle{
       width: 50px;
@@ -42,4 +42,24 @@
       justify-content: center;
     }
   }
+}
+
+h1, h2, h3, span, p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: rgb(35, 35, 35);
+}
+
+.content-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8px;
+
+  h1 {
+    margin: 0;
+    font-size: 18px;
+  }
+
 }
